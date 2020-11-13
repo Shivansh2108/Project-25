@@ -20,11 +20,12 @@ function setup() {
     
 	world = engine.world;
 	//Create the Bodies Here.
-	paper1=new paper(80,400);
+	
   ground1=new ground(400,590);
   bin1=new bin(1110,485,30,150);
   bin2=new bin(1030,560,200,30);
   bin3=new bin(945,485,30,150);
+	paper1=new paper(80,400);
 	Engine.run(engine);
   
 }
